@@ -1,2 +1,2 @@
-# conhecimentos-de-cursos-e-academicos
-aqui estão alguns conhecimentos gerais 
+# conhecimentos de html e css
+aqui estão na pratica alguns conhecimentos
