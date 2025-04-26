@@ -1,0 +1,26 @@
+/* seletor universal 
+*{
+    margin: 0px;
+    padding: 0px;
+}*/
+/* seletor filho 
+li>a{
+    color: green;
+}*/
+/* seleto adjacente 
+
+div a{
+    color: red;
+}*/
+
+/* seletor irmao adjacentes
+
+h1 + p{
+    color: blue;
+}*/
+
+/* seletores irmao geral */
+
+h1~p{
+    color: blue;
+}

@@ -1,0 +1,22 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul a{
+    width: 200px; /* usou 400px que é o tamanho da largura, porem usasse 200px para metade e fazer o bacground*/
+    height: 40px;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;  /* usado para indenta e da espaçamento  */
+    line-height: 40px; /* usado para deixae a altura alinhada como o temanho da imagem, e tira ela do mesmo tamanho da fonte */
+    display: block;
+    background: #f7b600 url(img/menu.png) left bottom ; /* usa o left bottom para fixar a esquerda  mas n precisa necessariamente */
+    /* usado se caso de algum erro no outro background #f7b600  */
+}
+a:hover, .selecionado a{
+    background-position: right bottom;/* usado para puxar a imagem para a direita  */
+    background-color: #f99200;/* usado se caso de algum erro no outro background  */
+    color: white;
+}

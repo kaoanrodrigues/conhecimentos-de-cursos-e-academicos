@@ -1,0 +1,40 @@
+ul#navegação{
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width:575px;
+    background:url(img/fundo-horizontal.png) repeat-x;
+    float: left;
+
+}
+
+ul#navegação li{
+     float: left; /*  ou usasse display:inline; PARA POR AOLADo */
+}
+
+ul#navegação a{
+
+    padding: 0 2em;
+    line-height: 2em;/* pode se usar o pedding porem o indicado é o line height  */
+    display: block; /* usado para libera o tamanho  */
+    text-decoration: none;
+    color: white;
+    background: url(img/divisor.png) repeat-y;
+
+}
+
+ul#navegação .primeiro a{ /* usasse navegaçao para usa como id se caso tiver outra ul */
+    background:none;
+}
+
+ul#navegação a:hover{
+    color:#085662 ;
+    background:#44cade;
+
+
+}
+.selecionado{
+    color:#085662 ;
+    background:#44cade;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicionamento estatico,relativo,absoluto, fixo</title>
+    <style type="text/css">
+
+        body{
+            background: blue;
+        }
+
+        #container{
+            background: #fff;
+            width: 800px;
+            margin:10px auto;/*usado auto para as laterais ficarem fica a um valor central*/
+            padding: 10px;
+           /* position: relative;tradicionamente o modelo é estatico foi mudado para o absolut funcinar*/
+
+        }
+        p{
+            width: 300px;
+        }
+        #relative{
+            position: relative;/*o posicionamento estatico ja é usado automaticamente
+            top: 20px;
+            bottom: -20px;
+            right: 20px;
+            left: 20px;*/
+        }
+        .absolut{
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .fixo{
+            border: 1px solid red;
+            background: #f2f2f2;
+            margin: 0px;/*usado para tirar todos os espaçamentos */
+            position: fixed;
+            right: 0px;
+            bottom:0px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>posicionamento</h1>
+        <p>p1Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
+            e de impressos, e vem sendo utilizado desde o século XVI</p>
+
+        <p>p2Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
+            e de impressos, e vem sendo utilizado desde o século XVI</p>     
+                
+        <p class="fixo">p3Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
+            e de impressos, e vem sendo utilizado desde o século XVI</p>
+
+        <p>p4Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica 
+            e de impressos, e vem sendo utilizado desde o século XVI</p>
+  
+    </div>
+    
+</body>
+</html>

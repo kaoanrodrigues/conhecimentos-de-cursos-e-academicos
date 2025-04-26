@@ -1,0 +1,38 @@
+/*modelo de caixa css*/
+
+.conteudo{
+    border: 1px solid red;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    /*padding:20px; ja gera tudo*/
+    /*padding: 20px 10px 15px 5px;*/
+    width: 150px;
+    /*margin: 20px;*/
+    /*margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;*/
+    /*margin: 10px 15px 20px 5px;*/
+    margin-bottom: 30px;
+
+ }
+ .conteudo2{/*o uso do maguim top e botton a maior predominar e ai esta o exemplo predominou o 30 do conteudo acima*/
+    border: 1px solid green;
+    margin-top: 20px;
+    padding: 20px;
+    width: 150px;
+ }
+
+ /*noticia*/
+ #noticia{
+    background: #f9f9f9;
+    border: 1px solid gray;
+    padding: 10px;
+ }
+ h1{
+    border: 1px solid red;
+    margin: 0px;/*magin do h1 ja tem numero por isso tirei para ficar exatamente no formato de uma notcia*/
+    
+ }
